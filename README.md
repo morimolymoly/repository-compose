@@ -1,4 +1,4 @@
-# go-http-shitty-redirect
+# Docker registory local
 
 ## Usage
 ```
