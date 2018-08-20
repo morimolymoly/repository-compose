@@ -1,0 +1,10 @@
+version: '3'
+services:
+  server:
+    container_name: local-resistory
+    image: registry:latest
+    ports:
+        - 5000:5000
+    volumes:
+      - "/var/opt:/var/lib/registry"
+    restart: unless-stopped
